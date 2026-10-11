@@ -1,0 +1,11 @@
+[package]
+name = "ControlCenter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk4 = "0.11.5"
+blight = "0.8.0"
+volumecontrol-linux = { version = "0.1.2", features = ["pulseaudio"] }
+volumecontrol-core = "0.1.2"
+regex = "1.13.1"
